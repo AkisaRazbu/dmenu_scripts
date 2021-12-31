@@ -1,5 +1,6 @@
 #! /bin/bash
 
-mkdir ~/.scripts || echo ".scripts directory already exists  in your home directory" && mv global.sh ~/.scripts && mv exitmenu.sh ~/.scripts && echo -e "\nDone."
+mkdir ~/.sc || echo ".sc directory already exists  in your home directory" 
+mv global.sh ~/.sc && mv exitmenu.sh ~/.sc
+cd ~/.sc
 chmod +x global.sh && chmod +x exitmenu.sh
-mv global.sh ~/.scripts && mv exitmenu.sh ~/.scripts
